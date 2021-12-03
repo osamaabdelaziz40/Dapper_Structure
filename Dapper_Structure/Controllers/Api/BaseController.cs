@@ -7,10 +7,10 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Dapper_Structure.Controllers.Api
-{
+{ 
     public class BaseController : Controller
     {
-        public ICountryRepository Country_Repository;
+        //public ICountryRepository Country_Repository;
 
         public Result result = new Result();
         
